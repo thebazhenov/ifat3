@@ -19,7 +19,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.12.1</version> <!-- Убедитесь, что версия актуальна -->
+            <version>4.26.0</version> <!-- Убедитесь, что версия актуальна -->
         </dependency>
 
         <!-- JUnit 5 -->
@@ -27,6 +27,14 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>5.10.0</version> <!-- Убедитесь, что версия актуальна -->
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.10.2</version>
             <scope>test</scope>
         </dependency>
 
